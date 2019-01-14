@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,MAAM;CACd",
+    "sources": [
+        "../sass/stars_rating.scss"
+    ],
+    "names": [],
+    "file": "stars_rating.css"
+}
