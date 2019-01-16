@@ -19,13 +19,12 @@
 </head>
 
 <body class="is-preload">
-
 	<header id="header">
 		<div class="inner text-uppercase">
 			<div id="idioma" class="row aln-right">
 				<div class="col-2">
 					<a href="" id="flag-brasil"><img class="flag flag-active" src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg"
-						 alt="Brazil Flag"></a>
+							alt="Brazil Flag"></a>
 					<a href="" id="flag-usa"><img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg" alt="United States Flag"></a>
 				</div>
 			</div>
@@ -49,12 +48,11 @@
 			</div>
 		</footer>
 	</header>
-
-
-	<div id="main">
+	<div id="main"></div>
+	<div id="build" class="hide">
 		<section id="one">
 			<header class="major">
-				<h2>Ipsum lorem dolor aliquam ante commodo<br />
+				<h2>{{hi}} lorem dolor aliquam ante commodo<br />
 					magna sed accumsan arcu neque.</h2>
 			</header>
 			<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in
@@ -64,11 +62,11 @@
 		</section>
 		<section id="timeline">
 			<header class="major">
-				<h2>Timeline Concept</h2>
+				<h2>{{experience}}</h2>
 				<ul class="timeline wow fadeIn">
-					<li class="event wow bounceInDown" data-wow-delay="2s" data-date="2016 - atualmente">
+					<li class="event wow fadeInUp" data-wow-delay="1s" data-date="2016 - atualmente">
 						<h3>Wquarks Desenvolvimento de Software</h3>
-						<p>Desenvolverdor de software Pleno</p>
+						<p>{{fullStackDev}}</p>
 						<div class="row">
 							<div><span class="label label-default">PHP (Laravel 4~5+)</span></div>
 							<div><span class="label label-default">HTML</span></div>
@@ -77,9 +75,9 @@
 							<div><span class="label label-default">MySQL</span></div>
 						</div>
 					</li>
-					<li class="event wow bounceInDown" data-wow-delay="1s" data-date="2014 - 2016">
+					<li class="event wow fadeInUp" data-wow-delay="2s" data-date="2014 - 2016">
 						<h3>CTIC - SEDESE</h3>
-						<p>Estagiario em desenvolvimento de software.</p>
+						<p>{{traineeDev}}</p>
 						<div class="row">
 							<div><span class="label label-default">PHP (ScriptCase 4~7)</span></div>
 							<div><span class="label label-default">HTML</span></div>
@@ -92,14 +90,14 @@
 		</section>
 		<section id="academic">
 			<header class="major">
-				<h2>Academic</h2>
+				<h2>{{academic}}</h2>
 			</header>
 			<li>Bacharelando em Ciência da Computação pela Universidade FUMEC <small class="text-muted">(curso trancado)</small>.</li>
 			<li>Curso de ReactNative pela Udemy - 2019.</li>
 		</section>
 		<section id="professional">
 			<header class="major">
-				<h2>Professional</h2>
+				<h2>{{professional}}</h2>
 			</header>
 			<p>
 				<h3>My knowlidge level in software</h3>
@@ -193,35 +191,34 @@
 				<div><span class="label label-default">Linux</span></div>
 				<div><span class="label label-default">MacOs</span></div>
 				<div><span class="label label-default">Inglês (básico)</span></div>
-
 			</div>
 		</section>
 		<section id="portifolio">
 			<header class="major">
-				<h2>My Portfolio</h2>
+				<h2>{{myPortfolio}}</h2>
 			</header>
 			<p>
-				<h3>Last work</h3>
+				<h3>{{lastWork}}</h3>
 			</p>
 			<div class="row">
 				<div class="col-4">
 					<div class="imageWrapper">
 						<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
-						 alt="">
+							alt="">
 						<span class="cornerLink">aqui</span>
 					</div>
 				</div>
 				<div class="col-4 ">
 					<div class="imageWrapper">
 						<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
-						 alt="">
+							alt="">
 						<span class="cornerLink">aqui</span>
 					</div>
 				</div>
 				<div class="col-4 ">
 					<div class="imageWrapper">
 						<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
-						 alt="">
+							alt="">
 						<span class="cornerLink">aqui</span>
 					</div>
 				</div>
@@ -242,9 +239,16 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/theme.js"></script>
 
+	<script src="assets/js/translate.js"></script>
 	<script src="assets/js/main.js"></script>
 
 	<script>
+		$(document).ready(function(){			
+		});
+		const App = {
+			main: document.getElementById('build')
+		};
+		translate('bra');
 		// WOW
 		new WOW().init();
 
