@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Christiano Costa</title>
+	<title>Christiano Costa | Web Developer</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
@@ -29,8 +29,15 @@
 				</div>
 			</div>
 			<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-			<h1><strong>I<span class="diff">`</span>m Christiano Costa<span class="diff">.</span></strong><br />FullStack
-				Developer, Web Designer & Feelancer</h1>
+			<div id="dev-text" class="text-left">
+				<div>DEVE</div>
+				<br>
+				<div>LOPER</div>
+			</div>
+			<h1>
+				<strong>Christiano<span class="blue">.</span></strong><br />
+				FullStack Developer, Web Designer & Feelancer
+			</h1>
 		</div>
 		<footer id="footer">
 			<div class="inner">
@@ -40,10 +47,11 @@
 					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 					<li><a href="#" class="icon fa-instagram"><span class="label">Dribbble</span></a></li>
 					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					<li><a href="#" class="icon fa-whatsapp"><span class="label">Whatsapp</span></a></li>
 				</ul>
 				<div>
 					<span>&copy; Designed by</span><br>
-					<spam class="foot_myself-name diff">Christiano Costa</spam>
+					<spam class="foot_myself-name blue">Christiano Costa</spam>
 				</div>
 			</div>
 		</footer>
@@ -52,21 +60,22 @@
 	<div id="build" class="hide">
 		<section id="one">
 			<header class="major">
-				<h2>{{hi}} lorem dolor aliquam ante commodo<br />
-					magna sed accumsan arcu neque.</h2>
+				<h2>{{principal}}</h2>
 			</header>
-			<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in
-				adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit
-				enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem
-				neque cubilia.</p>
+			<p>
+				<h3>{{text1}}</h3>
+			</p>
+			<p>
+				<h3>{{text2}}</h3>
+			</p>
 		</section>
 		<section id="timeline">
 			<header class="major">
 				<h2>{{experience}}</h2>
 				<ul class="timeline wow fadeIn">
-					<li class="event wow fadeInUp" data-wow-delay="1s" data-date="2016 - atualmente">
+					<li class="event wow fadeInUp" data-wow-delay="1s" data-date="2016 - {{actual}}">
 						<h3>Wquarks Desenvolvimento de Software</h3>
-						<p>{{fullStackDev}}</p>
+						<p>{{fullstackdev}}</p>
 						<div class="row">
 							<div><span class="label label-default">PHP (Laravel 4~5+)</span></div>
 							<div><span class="label label-default">HTML</span></div>
@@ -77,7 +86,7 @@
 					</li>
 					<li class="event wow fadeInUp" data-wow-delay="2s" data-date="2014 - 2016">
 						<h3>CTIC - SEDESE</h3>
-						<p>{{traineeDev}}</p>
+						<p>{{traineedev}}</p>
 						<div class="row">
 							<div><span class="label label-default">PHP (ScriptCase 4~7)</span></div>
 							<div><span class="label label-default">HTML</span></div>
@@ -97,10 +106,10 @@
 		</section>
 		<section id="professional">
 			<header class="major">
-				<h2>{{professional}}</h2>
+				<h2>{{skills}}</h2>
 			</header>
 			<p>
-				<h3>My knowlidge level in software</h3>
+				<h3>{{text3}}</h3>
 			</p>
 			<p>
 				<div class="row">
@@ -128,7 +137,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-2">
+					<div class="col-2">	
 						JavaScript
 					</div>
 					<div class="col-6">
@@ -147,7 +156,7 @@
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star"></span>
+						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star"></span>
 					</div>
 				</div>
@@ -165,8 +174,7 @@
 				</div>
 			</p>
 
-
-			<div><span>FrameWorks / Libs</span></div>
+			<div><span>Frameworks / Libs</span></div>
 			<div class="row">
 				<div><span class="label label-primary">Laravel 4.2~5.7</span></div>
 				<div><span class="label label-primary">BackBoneJS</span></div>
@@ -181,49 +189,54 @@
 			<br>
 			<div><span>+ plus</span></div>
 			<div class="row">
-				<div><span class="label label-default">Desenvolvimento de Software</span></div>
-				<div><span class="label label-default">Aplicativos Mobile</span></div>
+				<div><span class="label label-default">{{softdevelop}}</span></div>
+				<div><span class="label label-default">{{mobileapps}}</span></div>
 				<div><span class="label label-default">Design UI/UX</span></div>
-				<div><span class="label label-default">Análise de Requisitos</span></div>
+				<div><span class="label label-default">{{requirements}}</span></div>
 				<div><span class="label label-default">DevOps</span></div>
-				<div><span class="label label-default">Técnicas de desenvolvimento ageil</span></div>
+				<div><span class="label label-default">{{devtecnics}}</span></div>
 				<div><span class="label label-default">Git</span></div>
-				<div><span class="label label-default">Linux</span></div>
-				<div><span class="label label-default">MacOs</span></div>
-				<div><span class="label label-default">Inglês (básico)</span></div>
+				<div><span class="label label-default">Win / Linux / MacOs</span></div>
+				<div><span class="label label-default">{{english}} ({{basic}})</span></div>
 			</div>
 		</section>
 		<section id="portifolio">
 			<header class="major">
-				<h2>{{myPortfolio}}</h2>
+				<h2>{{myportfolio}}</h2>
 			</header>
 			<p>
-				<h3>{{lastWork}}</h3>
+				<h3>{{text4}}</h3>
 			</p>
 			<div class="row">
 				<div class="col-4">
-					<div class="imageWrapper">
-						<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
-							alt="">
-						<span class="cornerLink">aqui</span>
-					</div>
+					<a href="">
+						<div class="imageWrapper">
+							<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
+								alt="">
+							<span class="cornerLink">aqui</span>
+						</div>
+					</a>
 				</div>
 				<div class="col-4 ">
-					<div class="imageWrapper">
-						<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
-							alt="">
-						<span class="cornerLink">aqui</span>
-					</div>
+					<a href="">
+						<div class="imageWrapper">
+							<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
+								alt="">
+							<span class="cornerLink">aqui</span>
+						</div>
+					</a>
 				</div>
 				<div class="col-4 ">
-					<div class="imageWrapper">
-						<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
-							alt="">
-						<span class="cornerLink">aqui</span>
-					</div>
+					<a href="">
+						<div class="imageWrapper">
+							<img class="" src="https://www.mockupblast.com/wp-content/uploads/2017/11/Photographer-Desk-Laptop-Mockup.jpg"
+								alt="">
+							<span class="cornerLink">aqui</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="row aln-right"><a href="#"> see more ></a></div>
+			<div class="row aln-right"><a href="#">{{seemore}}></a></div>
 		</section>
 	</div>
 	<script src="assets/js/jquery.min.js"></script>
