@@ -23,16 +23,19 @@ function translate(type) {
 function getText(type) {
     var text = {
         'bra': {
-            principal: 'Olá, meu nome é Christiano Costa, sou desenvolvedor fullstack e designer de interface com base no Brasil.',
-            text1: 'Eu sou um sonhador e fanático por todas as coisas digitais. Tenho muitos anos de experiência em desenvolvimento,  amo design minimalista e café.',
+            principal: 'Olá, meu nome é Christiano Costa, sou desenvolvedor fullstack e web designer.',
+            text1: 'Eu sou um sonhador e fanático por todas as coisas digitais. Tenho muitos anos de experiência em desenvolvimento, amo design minimalista e café.',
             text2: 'Atualmente com dezenas de sites e sistemas desenvolvidos, clientes nacionais e internacionais que confiaram em mim para o design, implementação e gerenciamento de seus produtos digitais.',
             experience: 'Experiências Profissionais',
             actual: 'atual',
             fullstackdev: 'Desenvolvedor full-stack',
             traineedev: 'Estagiário em desenvolvimento',
             academic: 'Acadêmico',
+            fumec: 'Bacharelando em Ciência da Computação pela Universidade FUMEC',
+            loked: 'curso trancado',
+            udemy: 'Curso de ReactNative pela Udemy - 2019.',
             skills: 'Conhecimentos',
-            text3: 'Eu bebo café, eu como pizza. Eu escrevo códigos e aprimoro meu design e minhas habilidades todos os dias. Tenho a honra de trabalhar com pessoas especiais.',
+            text3: 'Eu escrevo códigos e aprimoro meu design e minhas habilidades todos os dias.',
             softdevelop: 'Desenvolvimento de Software',
             mobileapps: 'Aplicativos Mobile',
             requirements: 'Análise de Requisitos',
@@ -40,14 +43,36 @@ function getText(type) {
             english: 'Ingês',
             basic: 'básico',
             myportfolio: 'Meu Portifolio',
-            text4: 'Eu bebo café, eu como pizza. Eu escrevo códigos e aprimoro meu design e minhas habilidades todos os dias. Tenho a honra de trabalhar com pessoas especiais.',
+            text4: 'Eu bebo café, eu como pizza. Tenho a honra de trabalhar com pessoas especiais.',
             seemore: 'veja mais',
 
 
         },
         'usa': {
-            hi: 'Hi',
-            myPortfolio: 'My Works'
+            principal: 'Hi, my name is Christiano Costa, I am fullstack developer and web designer.',
+            text1: 'I am a dreamer and fanatic about all things digital. I have many years of development experience, love minimalist design and coffee',
+            text2: 'Currently with dozens of websites and systems developed, national and international clients have trusted me for the design, implementation and management of their digital products.',
+            experience: 'Professional Experiences',
+            actual: 'current',
+            fullstackdev: 'Full-stack Developer',
+            traineedev: 'Developer trainee',
+            academic: 'Academic',
+            fumec: 'Bachelor of Science in Computer Science by University FUMEC in Brazil.',
+            loked: 'locked course',
+            udemy: 'ReactNative course by Udemy - 2019.',
+            skills: 'Knowledge',
+            text3: 'I write codes and improve my design and my skills every day.',
+            softdevelop: 'Software development',
+            mobileapps: 'Mobile Applications',
+            requirements: 'Requirements Analysis',
+            devtecnics: 'Agile Development Techniques',
+            english: 'English',
+            basic: 'basic',
+            myportfolio: 'My portfolio',
+            text4: 'I drink coffee, I eat pizza. I have the honor of working with special people.',
+            seemore: 'see more',
+
+
         },
     };
     return text[type];
