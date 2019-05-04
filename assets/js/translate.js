@@ -14,10 +14,8 @@ usa.addEventListener("click",function(e){
 function translate(type) {
     var source   = App.main.innerHTML;
     var template = Handlebars.compile(source);
-    console.log(App.main.innerText);
     var data = getText(type);
     document.getElementById('main').innerHTML = template(data);  
-    console.log(App.main.innerText);
 }
 
 function getText(type) {
@@ -35,7 +33,7 @@ function getText(type) {
             loked: 'curso trancado',
             udemy: 'Curso de ReactNative pela Udemy - 2019.',
             skills: 'Conhecimentos',
-            text3: 'Eu escrevo códigos e aprimoro meu design e minhas habilidades todos os dias.',
+            text3: 'Eu aprimoro meu código, meu design e minhas habilidades todos os dias.',
             softdevelop: 'Desenvolvimento de Software',
             mobileapps: 'Aplicativos Mobile',
             requirements: 'Análise de Requisitos',
@@ -45,7 +43,15 @@ function getText(type) {
             myportfolio: 'Meu Portifolio',
             text4: 'Eu bebo café, eu como pizza. Tenho a honra de trabalhar com pessoas especiais.',
             seemore: 'veja mais',
-
+            myhobbies: 'Meus hobbies',
+            coffee: 'Café',
+            music: 'Musica',
+            podcasts: 'Podcast',
+            movies: 'Filmes',
+            series: 'Series',
+            guitar: 'Guitarra',
+            photography: 'Fotografia',
+            gym: 'Acadêmia',
 
         },
         'usa': {
@@ -61,7 +67,7 @@ function getText(type) {
             loked: 'locked course',
             udemy: 'ReactNative course by Udemy - 2019.',
             skills: 'Knowledge',
-            text3: 'I write codes and improve my design and my skills every day.',
+            text3: 'I improve my code, my design and my skills every day.',
             softdevelop: 'Software development',
             mobileapps: 'Mobile Applications',
             requirements: 'Requirements Analysis',
@@ -71,6 +77,15 @@ function getText(type) {
             myportfolio: 'My portfolio',
             text4: 'I drink coffee, I eat pizza. I have the honor of working with special people.',
             seemore: 'see more',
+            myhobbies: 'My hobbies',
+            coffee: 'Coffee',
+            music: 'Music',
+            podcasts: 'Podcast',
+            movies: 'Movies',
+            series: 'Series',
+            guitar: 'Guitar',
+            photography: 'Photography',
+            gym: 'Gym',
 
 
         },

@@ -79,8 +79,7 @@ a:hover {
 
 .imageWrapper > img {
   display: block;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 200px;
   width: auto;
   height: auto;
 }
@@ -102,5 +101,11 @@ a:hover {
 
 .skill {
   margin: 3px;
+}
+
+.hobbies {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
