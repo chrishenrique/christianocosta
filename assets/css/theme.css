@@ -2373,11 +2373,11 @@ input[type="button"]:disabled,
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #1f1815;
-  background-attachment: scroll,								scroll;
-  background-image: url("images/overlay.png"), url("../../images/bg3.jpg");
-  background-position: top left,							top left;
-  background-repeat: repeat,								repeat;
-  background-size: auto,								100%;
+  background-attachment: scroll;
+  background-image: url("../../images/bg7.jpg");
+  background-position: top left;
+  background-repeat: repeat;
+  background-size: 100%;
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
   left: 0;
@@ -2749,8 +2749,10 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
   #header {
     background-attachment: scroll;
-    background-position: top left,	center center;
-    background-size: auto,		cover;
+    background-image: url("../../images/bg8.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
     left: auto;
     padding: 6em 4em;
     position: relative;
@@ -2769,10 +2771,10 @@ body.is-touch .poptrox-popup .closer {
   #footer {
     background-attachment: scroll;
     background-color: #1f1815;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-    background-position: top left,						bottom center;
-    background-repeat: repeat,							no-repeat;
-    background-size: auto,							cover;
+    background-image: url("../../images/bg8.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     bottom: auto;
     left: auto;
     padding: 4em 4em 6em 4em;
