@@ -50,6 +50,18 @@ a:hover {
   margin-bottom: 55px;
 }
 
+@media (max-width: 980px) {
+  #dev-text > div {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 736px) {
+  #dev-text > div {
+    margin-bottom: -16px;
+  }
+}
+
 /* Footer */
 .foot_myself-name {
   font-size: 30px;
