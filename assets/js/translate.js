@@ -55,7 +55,7 @@ function getText(type) {
 
         },
         'usa': {
-            principal: 'Hi, my name is Christiano Costa, I am fullstack developer and web designer.',
+            principal: 'Hi, my name is Christiano Costa, I am a fullstack developer and web designer.',
             text1: 'I am a dreamer and fanatic about all things digital. I have many years of development experience, love minimalist design and coffee',
             text2: 'Currently with dozens of websites and systems developed, national and international clients have trusted me for the design, implementation and management of their digital products.',
             experience: 'Professional Experiences',
