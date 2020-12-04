@@ -1,8 +1,11 @@
-<!DOCTYPE HTML>
-<html>
+
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143092222-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -16,328 +19,1191 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
 	<!-- SEO -->
-	<meta name="description" content="Hi, my name is Christiano Costa, I am fullstack developer and web designer.">
-	<meta property="og:url" content="https://www.christianocosta.com/">
-	<meta property="og:title" content="Christiano Costa - Fullstack developer and web designer">
-	<meta property="og:description" content="Hi, my name is Christiano Costa, I am fullstack developer and web designer.">
+	<meta name="description" content="Olá, meu nome é Christiano Costa, sou desenvolvedor fullstack e web designer e freelancer.">
+	<meta property="og:url" content="http://www.christianocosta.com/">
+	<meta property="og:title" content="Christiano Costa - Fullstack developer, web designer e freelancer">
+	<meta property="og:description" content="Olá, meu nome é Christiano Costa, sou desenvolvedor fullstack e web designer e freelancer.">
 	<meta property="og:site_name" content="Christiano Costa">
-	<meta property="og:image" content="https://www.christianocosta.com/images/bg9.jpg">
+	<meta property="og:image" content="http://www.christianocosta.com/images/preview.jpg">
 	<meta property="og:type" content="website">
-	<!-- <meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@DigitalOcean">
-	<meta name="twitter:creator" content="@DigitalOcean"> -->
 
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
 
-	<link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- custom styles (optional) -->
+    <link href="assets/css/plugins.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 
-	<link rel="stylesheet" href="assets/css/animate.css" />
-
-	<link rel="stylesheet" href="assets/css/theme.css" />
-	<link rel="stylesheet" href="assets/css/timeline.css" />
-	<link rel="stylesheet" href="assets/css/stars_rating.css" />
-	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="is-preload">
-	<header id="header">
-		<div class="inner text-uppercase">
-			<div id="idioma" class="row aln-right">
-				<div class="col-2">
-					<a href="" id="flag-brasil"><img class="flag flag-active" src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg"
-							alt="Bandeira do Brasil"></a>
-					<a href="" id="flag-usa"><img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg" alt="United States Flag"></a>
-				</div>
-			</div>
-			<p>
-				<h1>
-					<strong>Christiano Costa<span class="blue">.</span></strong><br />
-				</h1>
-			</p>
-			<!-- <a href="#" class="image avatar"><img src="images/chris_avatar.svg" alt="Minha foto" /></a> -->
-			<br>
-			<div id="dev-text" class="text-left">
-				<div>DEVE</div><br><div>LOPER</div>
-			</div>
-			<h1>
-				FullStack Developer, Web Designer & Freelancer
-			</h1>
-		</div>
-		<footer id="footer">
-			<div class="inner">
-				<h3><span class="blue">+</span> 55 31 98439-1081 <br> chrishenrique16<span class="blue">@</span>hotmail.com</h3>
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/christiano-costa-61061789/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/chrishenrique" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-					<li><a href="https://www.instagram.com/chrishenrique16/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<!-- <li><a href="chrishenrique16@hotmail.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
-					<li><a href="http://api.whatsapp.com/send?phone=5531984391081" target="_blank" class="icon fa-whatsapp"><span class="label">Whatsapp</span></a></li>
-				</ul>
-				<div>
-					<span>&copy; Designed by</span><br>
-					<spam class="foot_myself-name blue">Christiano Costa</spam>
-				</div>
-			</div>
-		</footer>
-	</header>
-	<!-- 
+<body class="hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
+
+    <div class="preloader">
+        <div class="preloader-after"></div>
+        <div class="preloader-before"></div>
+        <div class="preloader-block">
+            <div class="title">Christiano Costa</div>
+            <div class="percent">0</div>
+            <div class="loading">loading...</div>
+        </div>
+        <div class="preloader-bar">
+            <div class="preloader-progress"></div>
+        </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <div class="dsn-nav-bar">
+        <div class="site-header">
+            <div class="extend-container">
+                <div class="inner-header">
+                    <div class="main-logo">
+                        <a href="index.html">
+                            <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
+                            <img class="light-logo" src="assets/img/logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <nav class=" accent-menu main-navigation">
+                    <ul class="extend-container">
+                        <li><a class="trn" href="https://api.whatsapp.com/send?phone=5531984391081"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a class="trn" href="https://instagram.com/chrishenrique"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="trn" href="#https://www.linkedin.com/in/christianocosta/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a class="trn" href="https://github.com/chrishenrique"><i class="fab fa-github"></i></a></li>
+                        <li><a class="trn" href="mailto:chrishenrique16@hotmail.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-top header-top-hamburger">
+            <div class="header-container">
+                <div class="logo main-logo">
+                    <a href="index.html">
+                        <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
+                        <img class="light-logo" src="assets/img/logo.png" alt="" />
+                    </a>
+                </div>
+
+                <div class="menu-icon nocursor" data-dsn="parallax" data-dsn-move="5">
+                    <div class="icon-m">
+                        <i class="menu-icon-close fas fa-times"></i>
+                        <span class="menu-icon__line menu-icon__line-left"></span>
+                        <span class="menu-icon__line"></span>
+                        <span class="menu-icon__line menu-icon__line-right"></span>
+                    </div>
+
+                    <div class="text-menu">
+                        <div class="text-button">Links</div>
+                        <div class="text-open trn">Abrir</div>
+                        <div class="text-close trn">Fechar</div>
+                    </div>
+                </div>
+
+                
+                <div class="nav">
+                    <div class="inner">
+                        <div class="nav__content">
+                               
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-content">
+                    <div class="inner-content">
+                        <address class="v-middle remove">
+                            <span >
+                                <a href="#" id="flag-brasil"><img class="flag flag-active" src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg"
+                                    alt="Bandeira do Brasil"></a>
+                                <a href="#" id="flag-usa"><img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg" alt="United States Flag"></a>
+                            </span>
+                            <!-- <span>Brazil</span>
+                            <span>Contagem | MG</span>
+                            <span>contact@christianocosta.com</span> -->
+                        </address>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Bar -->
+
+    <main class="main-root">
+        <div id="dsn-scrollbar">
+            
+            <div id="home" class="dsn-slider" data-dsn-header="project">
+                <div class="dsn-root-slider" id="dsn-hero-parallax-img">
+                    <div class="slide-inner">
+                        <div class="swiper-wrapper">
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span class="trn">Pessoal</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax" data-dsn-ajax="slider">
+                                                    Fullstack Developer
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Olá, meu nome é Christiano Costa, sou desenvolvedor fullstack e web designer.</p>
+
+                                        <div class="link-custom remove">
+                                            <a href="#about" class="image-zoom" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span class="trn">Sobre mim</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/01.jpg"
+                                        data-overlay="0">
+                                        <img src="assets/img/01.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span>Dev</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax" data-dsn-ajax="slider">
+                                                    Front-End
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Dou vida aos dados através do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com esses dados. Minha missão é projetar, construir e otimizar interfaces de projetos.</p>
+
+                                        <div class="link-custom remove">
+                                            <a href="#skills" class="image-zoom" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span class="trn">ver habilidades</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/02.jpg"
+                                        data-overlay="4">
+                                        <img src="assets/img/02.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span>Dev</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax" data-dsn-ajax="slider">
+                                                    Back-End
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Crio a lógica para fazer o aplicativo da web funcionar corretamente e consigo isso por meio do uso de linguagens de script do lado do servidor como o PHP.<br>Sei como tornar os aplicativos da web funcionais, sou responsável ​​por otimizar o aplicativo em velocidade e eficiência. Além disso, crio soluções de armazenamento em bancos de dados como MySql, PostgreSQL, SqLite.</p>
+
+                                        <div class="link-custom remove">
+                                            <a href="#skills" class="image-zoom" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span class="trn">ver habilidades</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/03.jpg"
+                                        data-overlay="0">
+                                        <img src="assets/img/03.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span>Design</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax" data-dsn-ajax="slider">
+                                                    Web Design
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Minha melhor parte do desenvolvimento é o processo de criação de sites, abranger vários aspectos diferentes, incluindo layout de página da Web/app, produção de conteúdo e design gráfico.</p>
+
+                                        <!-- <div class="link-custom">
+                                            <a href="#" class="image-zoom effect-ajax" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span>Draws</span>
+                                            </a>
+                                        </div> -->
+
+                                    </div>
+                                </div>
+
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/04.jpg"
+                                        data-overlay="2">
+                                        <img src="assets/img/04.jpg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span class="trn">Pense</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax" data-dsn-ajax="slider">
+                                                    UI / UX
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Também sou consumidor de muitos sites e apps, e quado me deparo com algum que não foi bem pensado tanto na visualização, na utilização e na interação, penso em nunca mais voltar... Lua me aguarde!!!</p>
+
+                                        <!-- <div class="link-custom">
+                                            <a href="#" class="image-zoom effect-ajax" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span>Draws</span>
+                                            </a>
+                                        </div> -->
+
+                                    </div>
+                                </div>
+
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/05.jpg"
+                                        data-overlay="2">
+                                        <img src="assets/img/05.jpg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span class="trn">Trabalhos</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax" data-dsn-ajax="slider">
+                                                    Freelancer
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Atualmente com dezenas de sites e sistemas desenvolvidos, clientes nacionais e internacionais que confiaram em mim para o design, implementação e gerenciamento de seus produtos digitais.</p>
+
+                                        <div class="link-custom remove">
+                                            <a href="#contacts" class="image-zoom" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span class="trn">Contatos</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/06.jpg"
+                                        data-overlay="5">
+                                        <img src="assets/img/06.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span class="trn">Visão</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax trn" data-dsn-ajax="slider">...</a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Eu sou um sonhador e fanático por todas as coisas digitais. Tenho muitos anos de experiência em desenvolvimento, amo design minimalista e café.</p>
+
+                                        <div class="link-custom remove">
+                                            <a href="#about" class="image-zoom" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span class="trn">Sobre</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/07.jpg"
+                                        data-overlay="4">
+                                        <img src="assets/img/07.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span class="trn">Fotografia</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax trn" data-dsn-ajax="slider">...</a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Tirar uma foto é como apertar o botão de pause na vida.</p>
+
+                                        <div class="link-custom">
+                                            <a href="https://instagram.com/chrishenrique" class="image-zoom" data-dsn="parallax" target="_blank"
+                                                data-dsn-ajax="slider">
+                                                <span class="trn">Instagram</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/08.jpg"
+                                        data-overlay="2">
+                                        <img src="assets/img/08.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-item swiper-slide">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="project-metas">
+                                            <div class="project-meta-box project-work cat">
+                                                <span class="trn">Hobbies</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="title-text-header">
+                                            <div class="title-text-header-inner">
+                                                <a href="#" class="effect-ajax trn" data-dsn-ajax="slider">...</a>
+                                            </div>
+                                        </div>
+
+                                        <p class="trn">Eu acredito que todo guitarrista tem algo de único em sua forma de tocar. Eles só precisam identificar o que os torna diferentes e desenvolver isso.</p>
+
+                                        <!-- <div class="link-custom">
+                                            <a href="project-1.html" class="image-zoom effect-ajax" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
+                                                <span>View Case</span>
+                                            </a>
+                                        </div> -->
+
+                                    </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/09.jpg"
+                                        data-overlay="2">
+                                        <img src="assets/img/09.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dsn-slider-content"></div>
 
 
+                <div class="nav-slider">
+                    <div class="swiper-wrapper" role="navigation">
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/01.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/02.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>02</p>
+                            </div>
+                        </div>
 
-	 -->
-	<div id="main"></div>
-	<div id="build" class="hide">
-		<section id="one">
-			<header class="major">
-				<h2>{{principal}}</h2>
-			</header>
-			<p>
-				<h3>{{text1}}</h3>
-			</p>
-			<p>
-				<h3>{{text2}}</h3>
-			</p>
-		</section>
-		<section id="timeline">
-			<header class="major">
-				<h2>{{experience}}</h2>
-				<ul class="timeline wow fadeIn">
-					<li class="event wow fadeInUp" data-wow-delay="1s" data-date="2016 - {{actual}}">
-						<h3>Wquarks Desenvolvimento de Software</h3>
-						<p>{{fullstackdev}}</p>
-						<div class="row">
-							<div><span class="label label-default">PHP (Laravel 4~5+)</span></div>
-							<div><span class="label label-default">HTML</span></div>
-							<div><span class="label label-default">CSS (Less)</span></div>
-							<div><span class="label label-default">JS (BackBoneJS)</span></div>
-							<div><span class="label label-default">MySQL</span></div>
-						</div>
-					</li>
-					<li class="event wow fadeInUp" data-wow-delay="2s" data-date="2014 - 2016">
-						<h3>CTIC - SEDESE</h3>
-						<p>{{traineedev}}</p>
-						<div class="row">
-							<div><span class="label label-default">PHP (ScriptCase 4~7)</span></div>
-							<div><span class="label label-default">HTML</span></div>
-							<div><span class="label label-default">CSS</span></div>
-							<div><span class="label label-default">MySQL</span></div>
-						</div>
-					</li>
-				</ul>
-			</header>
-		</section>
-		<section id="academic">
-			<header class="major">
-				<h2>{{academic}}</h2>
-			</header>
-			<li>{{fumec}} <small class="text-muted">({{loked}})</small>.</li>
-			<li>{{udemy}}</li>
-		</section>
-		<section id="professional">
-			<header class="major">
-				<h2>{{skills}}</h2>
-			</header>
-			<p>
-				<h3>{{text3}}</h3>
-			</p>
-			<p>
-				<div class="row">
-					<div class="col-2">
-						HTML
-					</div>
-					<div class="col-6">
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-2">
-						CSS
-					</div>
-					<div class="col-6">
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-2">	
-						JavaScript
-					</div>
-					<div class="col-6">
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-2">
-						PHP
-					</div>
-					<div class="col-6">
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-2">
-						MySQL
-					</div>
-					<div class="col-6">
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star checked"></span>
-						<span class="fa fa-star"></span>
-					</div>
-				</div>
-			</p>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/03.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>03</p>
+                            </div>
+                        </div>
 
-			<div><span>Frameworks / Libs</span></div>
-			<div class="row">
-				<div><span class="label label-primary">Laravel 4.2~5.8</span></div>
-				<div><span class="label label-primary">BackBoneJS</span></div>
-				<div><span class="label label-primary">VueJS</span></div>
-				<div><span class="label label-primary">Flutter</span></div>
-				<div><span class="label label-primary">ReactNative</span></div>
-				<div><span class="label label-primary">Less</span></div>
-				<div><span class="label label-primary">Sass</span></div>
-				<div><span class="label label-primary">CoffeeScript</span></div>
-				<div><span class="label label-primary">jQuery</span></div>
-			</div>
-			<br>
-			<div><span>+ plus</span></div>
-			<div class="row">
-				<div><span class="label label-default">{{softdevelop}}</span></div>
-				<div><span class="label label-default">{{mobileapps}}</span></div>
-				<div><span class="label label-default">Design UI/UX</span></div>
-				<div><span class="label label-default">{{requirements}}</span></div>
-				<div><span class="label label-default">DevOps</span></div>
-				<div><span class="label label-default">{{devtecnics}}</span></div>
-				<div><span class="label label-default">Git</span></div>
-				<div><span class="label label-default">Win / Linux / MacOs</span></div>
-				<div><span class="label label-default">{{english}} ({{basic}})</span></div>
-			</div>
-		</section>
-		<section id="portifolio" class="hide">
-			<header class="major">
-				<h2>{{myportfolio}}</h2>
-			</header>
-			<!-- <p>
-				<h3>{{text4}}</h3>
-			</p> -->
-			<div class="row">
-				<div class="col-4">
-					<!-- <a href=""> -->
-						<div class="imageWrapper">
-							<img class="img-responsive" src="images/portfolio/mocksite.jpg"
-								alt="">
-							<!-- <span class="cornerLink">aqui</span> -->
-						</div>
-					<!-- </a> -->
-				</div>
-				<div class="col-4 ">
-					<!-- <a href=""> -->
-						<div class="imageWrapper">
-							<img class="img-responsive" src="images/portfolio/mocksystem.jpg"
-								alt="">
-							<!-- <span class="cornerLink">aqui</span> -->
-						</div>
-					<!-- </a> -->
-				</div>
-				<div class="col-4 ">
-					<!-- <a href=""> -->
-						<div class="imageWrapper">
-							<img class="img-responsive" src="images/portfolio/mockappmobile.jpg"
-								alt="">
-							<!-- <span class="cornerLink">aqui</span> -->
-						</div>
-					<!-- </a> -->
-				</div>
-			</div>
-			<div class="row aln-right"><a href="#">{{seemore}}	</a></div>
-		</section>
-		<section id="hobby">
-			<header >
-				<h2>{{myhobbies}}</h2>
-			</header>
-			<!-- <p>
-				<h3>{{text4}}</h3>
-			</p> -->
-			<div class="row">
-				<div class="col-2 align-center"><img class="img-responsive hobbies" src="images/headphones.svg" alt="Minha foto" /> {{music}}/{{podcasts}}</div>
-				<div class="col-2 align-center"><img class="img-responsive hobbies" src="images/computer-screen.svg" alt="Minha foto" /> {{movies}}/{{series}}</div>
-				<div class="col-2 align-center"><img class="img-responsive hobbies" src="images/guitar.svg" alt="Minha foto" /> {{guitar}}</div>
-				<div class="col-2 align-center"><img class="img-responsive hobbies" src="images/camera.svg" alt="Minha foto" /> {{photography}}</div>
-				<div class="col-2 align-center"><img class="img-responsive hobbies" src="images/coffee-cup.svg" alt="Minha foto" /> {{coffee}}</div>
-				<div class="col-2 align-center"><img class="img-responsive hobbies" src="images/dumbbell.svg" alt="Minha foto" /> {{gym}}</div>
-			</div>
-		</section>
-	</div>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/04.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>04</p>
+                            </div>
+                        </div>
 
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/05.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>05</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/06.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>06</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/07.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>07</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/08.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>08</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="assets/img/09.jpg"
+                                    data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>09</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+                <section class="footer-slid" id="descover-holder">
+                    <div class="main-social">
+                        <div class="social-icon">
+                            <div class="social-btn">
+                                <div class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.3 23.2">
+                                        <path
+                                            d="M19.4 15.5c-1.2 0-2.4.6-3.1 1.7L7.8 12v-.7l8.5-5.1c.7 1 1.9 1.6 3.1 1.6 2.1 0 3.9-1.7 3.9-3.9S21.6 0 19.4 0s-3.9 1.7-3.9 3.9v.4L7 9.3c-1.3-1.7-3.7-2-5.4-.8s-2.1 3.7-.8 5.4c.7 1 1.9 1.6 3.1 1.6s2.4-.6 3.1-1.6l8.5 5v.4c0 2.1 1.7 3.9 3.9 3.9s3.9-1.7 3.9-3.9c0-2.1-1.7-3.8-3.9-3.8zm0-13.6c1.1 0 1.9.9 1.9 1.9s-.9 1.9-1.9 1.9-1.9-.7-1.9-1.8.8-2 1.9-2zM3.9 13.6c-1.1 0-1.9-.9-1.9-1.9s.9-1.9 1.9-1.9 1.9.9 1.9 1.9-.8 1.9-1.9 1.9zm15.5 7.8c-1.1 0-1.9-.9-1.9-1.9s.9-1.9 1.9-1.9 1.9.9 1.9 1.9-.8 1.8-1.9 1.9z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="social-network">
+                            <!-- <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li> -->
+                            <li>
+                                <a href="https://github.com/chrishenrique" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://instagram.com/chrishenrique" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/christianocosta/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-	<script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/theme.js"></script>
+                    <div class="control-num">
+                        <span class="sup active">01</span>
+                    </div>
+                    <div class="control-nav">
+                        <div class="prev-container" data-dsn="parallax">
+                            <svg viewBox="0 0 40 40">
+                                <path class="path circle" d="M20,2A18,18,0,1,1,2,20,18,18,0,0,1,20,2"></path>
+                                <polyline class="path" points="14.6 17.45 20 22.85 25.4 17.45"></polyline>
+                            </svg>
+                        </div>
 
-	<script src="assets/js/translate.js"></script>
-	<script src="assets/js/main.js"></script>
+                        <div class="next-container" data-dsn="parallax">
+                            <svg viewBox="0 0 40 40">
+                                <path class="path circle" d="M20,2A18,18,0,1,1,2,20,18,18,0,0,1,20,2"></path>
+                                <polyline class="path" points="14.6 17.45 20 22.85 25.4 17.45"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
 
-	<script>
-		$(document).ready(function(){			
-		});
-		const App = {
-			main: document.getElementById('build')
-		};
-		translate('bra');
-		// WOW
-		new WOW().init();
+            </div>
 
-		// // Typist
-		// var typist;
-		// typist = document.querySelector("#typist-element");
-		//     new Typist(typist, {
-		//     letterInterval: 100000,
-		//     textInterval: 100
-		// });
+            <div class="wrapper">
 
-		// // Blueimp Gallery
-		// var links = document.getElementsByClassName('links');
-		// if (links.length)
-		// {
-		//     var items = Object.keys(links).map(function(key) {
-		//         return {type: key, name: links[key]};
-		//     });
-		//     items.forEach(function(link) {
-		//         link.name.addEventListener("click",function (event) {
-		//             event = event || window.event;
-		//             var target = event.target || event.srcElement,
-		//                 link = target.src ? target.parentNode : target,
-		//                 options = {index: link, event: event},
-		//                 links = this.getElementsByTagName('a');
-		//             blueimp.Gallery(links, options);
-		//         });
-		//     });
-		// }
-	</script>
+                <section id="about" class="intro-about section-margin">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="intro-content-text">
+
+                                    <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%"
+                                        data-dsn-opacity="1.2" data-dsn-responsive="tablet">
+                                        <span class="trn">Olá! Sou o Chris</span>,<br />
+                                    </h2>
+
+                                    <p class="trn">Gosto de criar coisas que vivem na Internet, sejam sites, aplicativos ou qualquer coisa entre eles. Meu objetivo é sempre construir produtos que forneçam experiências perfeitas e de alto desempenho..</p>
+                                    <p class="trn">Sou especializado em desenvolvimento web, ofereço um serviço completo de construção de sites e sistemas online. Trabalho como freelancer ou em conjunto com agências e empresas para dar vida ao seu projeto.</p>
+
+                                    <!-- <h6 data-dsn-animate="text">SALVADOR DALI</h6>
+                                    <small data-dsn-animate="text">Digital Artisit</small> -->
+
+                                    <div class="exper">
+                                        <div class="numb-ex">
+                                            <span class="word" data-dsn-animate="text">10</span>
+                                        </div>
+
+                                        <h4 data-dsn-animate="up" class="trn">ANOS<br> DE EXPERIÊNCIA <br>EM DESENVOLVIMENTO</h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="background-mask">
+                        <div class="background-mask-bg"></div>
+                        <div class="img-box">
+                            <div class="img-cent" data-dsn-grid="move-up">
+                                <div class="img-container">
+                                    <img data-dsn-y="30%" src="assets/img/EM-2-8.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="skills" class="our-services-2 section-margin">
+                    <div class="container">
+                        <div class="one-title" data-dsn-animate="up">
+                            <div class="title-sub-container">
+                                <p class="title-sub trn">Minhas habilidades</p>
+                            </div>
+                            <h2 class="title-main trn">Eu aprimoro meu código, meu design e minhas habilidades todos os dias.</h2>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="services-item">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/lamp.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3>Front-End</h3>
+                                    </div>
+                                    <p>HTML, CSS, JS</p>
+                                    <p>Bootstrap</p>
+                                    <p>JQuery</p>
+                                    <p>Angular</p>
+                                    <p>VueJS</p>
+                                    <p>BackBone</p>
+                                    <p>Sass, Less</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="services-item selected">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/lamp.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3>Back-End</h3>
+                                    </div>
+                                    <p>PHP Laravel 5+</p>
+                                    <p>Mysql</p>
+                                    <p>PostgreSQL</p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="services-item">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/lamp.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3>UI-UX DESIGN</h3>
+                                    </div>
+                                    <p>Figma</p>
+                                    <p>Marvel App</p>
+                                    <p>MockFlow</p>
+                                    <p></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="services-item">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/lamp.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3>Mobile</h3>
+                                    </div>
+                                    <p>Flutter</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="services-item">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/lamp.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3 class="trn">mais</h3>
+                                    </div>
+                                    <p>Docker</p>
+                                    <p>GIT</p>
+                                    <p>NPM</p>
+                                    <p>REST</p>
+                                    <p>TypeScript</p>
+                                    <p>Win / Linux / MacOs</p>
+                                    <p class="trn">Ingês (básico)</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="services-item">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/lamp.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3 class="trn">Soft Skills</h3>
+                                    </div>
+                                    <p class="trn">Comunicação</p>
+                                    <p class="trn">Liderança</p>
+                                    <p class="trn">Flexibilidade e resiliência</p>
+                                    <p class="trn">Trabalho em equipe</p>
+                                    <p class="trn">Criatividade</p>
+                                    <p class="trn">Proatividade</p>
+                                    <p class="trn">Empatia</p>
+                                    <p class="trn">Ética no trabalho</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="academy" class="box-seat box-seat-full section-margin">
+                    <div class="container-fluid">
+                        <div class="inner-img" data-dsn-grid="move-up">
+                            <img data-dsn-scale="1" data-dsn-y="30%" src="assets/img/seat2.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <h3>Formação</h3>
+                            <h5>Ultimos 5 anos</h5>
+                            <p># Bacharelando em Ciência da Computação pela Universidade FUMEC (curso trancado).</p>
+                            <p># Aprimoramento e mentoria em web design pela Universidade FUMEC - 2017.</p>
+                            <p># Aprimoramento e mentoria em UI-UX pela Universidade FUMEC - 2018.</p>
+                            <p># CSS Best Practices pela Origamid - 2018.</p>
+                            <p># SEO Google "120h" - 2019</p>     
+                            <p># Curso de ReactNative pela Udemy nível básico - 2019</p>
+                            <p># Curso de Flutter pela Udemy nível básico - 2019</p>
+                            <p># Curso de Angular pela Udemy nível básico e médio - 2020</p>
+                            <p># Curso de Python pela Udemy nível básico - 2020</p>
+
+                            <p>Muuuitas horas de self fearning, conferências, palestras e meetups...</p>
+                            <div class="link-custom remove">
+                                <a class="image-zoom effect-ajax" href="project-2.html" data-dsn="parallax">
+                                    <span>Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section id="projects" class="our-work work-under-header section-margin remove" data-dsn-col="3">
+                    <div class="container">
+                        <div class="one-title">
+                            <div class="title-sub-container">
+                                <p class="title-sub trn">Meus Trabalhos</p>
+                            </div>
+                            <h2 class="title-main trn">Criatividade Design Performance</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-9 offset-lg-3">
+                                <div class="work-container">
+                                    <div class="slick-slider">
+                                        <div class="work-item slick-slide">
+                                            <img class="has-top-bottom" src="assets/img/01.jpg" alt="">
+                                            <div class="item-border"></div>
+                                            <div class="item-info">
+                                                <a href="project-7.html" data-dsn-grid="move-up" class="effect-ajax">
+
+                                                    <h5 class="cat">Website</h5>
+                                                    <h4>Comlook</h4>
+                                                    <h5>Site, e-commerce, sistema, logo e identidade visual</h5>
+                                                    <span><span class="trn">viewProject</span></span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="work-item slick-slide">
+                                            <img class="has-top-bottom" src="assets/img/01.jpg" alt="">
+                                            <div class="item-border"></div>
+                                            <div class="item-info">
+                                                <a href="project-6.html" data-dsn-grid="move-up" class="effect-ajax">
+
+                                                    <h5 class="cat">Fashion</h5>
+                                                    <h4>Bloawshom</h4>
+                                                    <span><span>Veiw Project</span></span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="work-item slick-slide">
+                                            <img class="has-top-bottom" src="assets/img/01.jpg" alt="">
+                                            <div class="item-border"></div>
+                                            <div class="item-info">
+                                                <a href="project-4.html" data-dsn-grid="move-up" class="effect-ajax">
+
+                                                    <h5 class="cat">Photography</h5>
+                                                    <h4>Bastian Bux</h4>
+                                                    <span><span>Veiw Project</span></span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="work-item slick-slide">
+                                            <img class="has-top-bottom" src="assets/img/01.jpg" alt="">
+                                            <div class="item-border"></div>
+                                            <div class="item-info">
+                                                <a href="project-5.html" data-dsn-grid="move-up" class="effect-ajax">
+
+                                                    <h5 class="cat">Fashion</h5>
+                                                    <h4>Bloawshom</h4>
+                                                    <span><span>Veiw Project</span></span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="contact" class="box-gallery-vertical section-margin section-padding" data-dsn="color">
+                    <div class="mask-bg"></div>
+                    <div class="container">
+                        <div class="row align-items-center h-100">
+                            <div class="col-lg-6 ">
+                                <div class="box-im" data-dsn-grid="move-up">
+                                    <img class="has-top-bottom" src="assets/img/05.jpg" alt=""
+                                        data-dsn-move="20%">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <div class="box-info">
+
+                                    <div class="vertical-title">
+                                        <h2 class="trn">Vamos trabalhar juntos.</h2>
+                                    </div>
+
+                                    <h6 class="trn">Acredito fortemente que designers e desenvolvedores têm a responsabilidade de garantir que o que estamos construindo não cause danos e tento ser o mais ético possível ao assumir projetos. <br><br>Se você está procurando ajuda para construir algo que promova a sustentabilidade, a diversidade, ou que geralmente tenha como objetivo ter um impacto positivo, então vamos conversar.</h6>
+
+                                    <!-- <p data-dsn-animate="up" class="trn">workTogetherText</p> -->
+
+                                    <div class="link-custom" data-dsn-animate="up">
+                                        <a class="image-zoom effect-ajax" href="https://api.whatsapp.com/send?phone=5531984391081" target="_blank" data-dsn="parallax">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+
+                                        <a class="image-zoom effect-ajax" href="http://instagram.com/chrishenrique" target="_blank" data-dsn="parallax">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    
+                                        <a class="image-zoom effect-ajax" href="https://www.linkedin.com/in/christianocosta/" target="_blank" data-dsn="parallax">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+
+                                        <a class="image-zoom effect-ajax" href="mailto:chrishenrique16@hotmail.com" target="_blank" data-dsn="parallax">
+                                            <i class="fas fa-envelope"></i>
+                                        </a>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <section class="client-see section-margin remove">
+                    <div class="container">
+                        <div class="inner">
+                            <div class="left">
+                                <h2 class="title" data-dsn-grid="move-section" data-dsn-move="-60"
+                                    data-dsn-duration="100%" data-dsn-opacity="1" data-dsn-responsive="tablet">
+                                    <span class="text trn">Feedback de clientes.</span>
+                                </h2>
+                            </div>
+
+                            <div class="items">
+                                <div class="bg"></div>
+                                <div class="slick-slider">
+                                    <div class="item">
+                                        <div class="quote">
+                                            <p class="trn">feedback1</p>
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="avatar">
+                                                <img src="assets/img/01.jpg" alt="">
+                                            </div>
+                                            <div class="label">
+                                                <div class="cell trn">feedbackclient1</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="quote">
+                                            <p>"Stage direction, music, ballet, workshops, backstage, the GTG presents
+                                                the
+                                                first
+                                                episode of the series “Les Indes galantes en création"</p>
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="avatar">
+                                                <img src="assets/img/01.jpg" alt="">
+                                            </div>
+                                            <div class="label">
+                                                <div class="cell">- Helen Ginsberg, CEO of Treasure Island</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="quote">
+                                            <p>"The Brief team has been sincerely committed to
+                                                designing great communication around our projects. Our customers love
+                                                their
+                                                creative work - and so do we!"</p>
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="avatar">
+                                                <img src="assets/img/01.jpg" alt="">
+                                            </div>
+                                            <div class="label">
+                                                <div class="cell">- Helen Ginsberg, CEO of Treasure Island</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <section class="our-news section-margin">
+                    <div class="container">
+                        <div class="one-title" data-dsn-animate="up">
+                            <div class="title-sub-container">
+                                <p class="title-sub">Latest News</p>
+                            </div>
+                            <h2 class="title-main">Latest and greatest post</h2>
+                        </div>
+                        <div class="custom-container">
+                            <div class="slick-slider">
+                                <div class="item-new slick-slide">
+                                    <div class="image" data-overlay="5">
+                                        <img src="assets/img/1.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="background"></div>
+                                        <h5>Web , Brand</h5>
+
+                                        <div class="cta">
+                                            <a href="#">Digital Photography Tips</a>
+                                        </div>
+
+                                        <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                            have the right lenses and sensors.</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="item-new slick-slide">
+                                    <div class="image" data-overlay="5">
+                                        <img src="assets/img/1.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="background"></div>
+                                        <h5>Web , Brand</h5>
+
+                                        <div class="cta">
+                                            <a href="#">Digital Photography Tips</a>
+                                        </div>
+
+                                        <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                            have the right lenses and sensors.</p>
+                                    </div>
+                                </div>
+
+                                <div class="item-new slick-slide">
+                                    <div class="image" data-overlay="5">
+                                        <img src="assets/img/1.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="background"></div>
+                                        <h5>Web , Brand</h5>
+
+                                        <div class="cta">
+                                            <a href="#">Digital Photography Tips</a>
+                                        </div>
+
+                                        <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                            have the right lenses and sensors.</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
+                <section class="contact-up section-margin section-padding">
+                    <div class="container">
+                        <div class="c-wapp">
+                            <a href="mailto:chrishenrique16@hotmail.com" class="effect-ajax">
+                                <span class="hiring trn">Gostaria de me contratar.</span>
+                                <span class="career trn">Não perca tempo, entre em contato imediatamente!</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-links p-relative">
+                        <div class="row">
+                            <div class="col-md-3 dsn-col-footer">
+                                <div class="footer-block">
+                                    <div class="footer-logo">
+                                        <a href=""><img src="assets/img/logo.png" alt=""></a>
+                                    </div>
+
+                                    <div class="footer-social">
+                                        <ul>
+                                            <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li> -->
+                                            <li><a href="https://github.com/chrishenrique" target="_blank"><i class="fab fa-github"></i></a></li>
+                                            <li><a href="https://api.whatsapp.com/send?phone=5531984391081" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                            <li><a href="https://instagram.com/chrishenrique" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/christianocosta/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2 dsn-col-footer remove">
+                                <div class="footer-block col-menu">
+                                    <h4 class="footer-title trn">Navegação</h4>
+                                    <nav>
+                                        <ul>
+                                            <li><a class="trn" href="#home">Home</a></li>
+                                            <li><a class="trn" href="#about">Sobre</a></li>
+                                            <li><a class="trn" href="#skills">Conhecimentos</a></li>
+                                            <li><a class="trn" href="#academy">Formação</a></li>
+                                            <li><a class="trn" href="#projects">Projetos</a></li>
+                                            <li><a class="trn" href="#contact">Contato</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 dsn-col-footer">
+                                <div class="footer-block col-contact">
+                                    <h4 class="footer-title trn">Contato</h4>
+                                    <!-- <p><strong>T</strong> <span>:</span> +001 225 3351</p> -->
+                                    <p><strong>F</strong> <span>:</span>+55 31 98439-1081</p>
+                                    <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover" data-hover-text="contact@christianocosta.com" href="mailto:contact@christianocosta.com">chrishenrique16@hotmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 dsn-col-footer">
+                                <div class="col-address">
+                                    <h4 class="footer-title trn">Localização</h4>
+                                    <p>127.0.0.1<br>
+                                        Contagem | MG<br>
+                                        Brasil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        <div class="text-center">
+                            <p>© 2020 Christiano Costa</p>
+                            <div class="copright-text over-hidden">Designed by <a class="link-hover"
+                                    data-hover-text="Christiano Costa" href="#" target="_blank">Christiano Costa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <!-- Wait Loader -->
+    <div class="wait-loader">
+        <div class="loader-inner">
+            <div class="loader-circle">
+                <div class="loader-layer"></div>
+            </div>
+        </div>
+    </div>
+    <!-- // Wait Loader -->
+
+
+    <!-- cursor -->
+    <div class="cursor">
+
+        <div class="cursor-helper cursor-view">
+            <span>VIEW</span>
+        </div>
+
+        <div class="cursor-helper cursor-close">
+            <span>Close</span>
+        </div>
+
+        <div class="cursor-helper cursor-link"></div>
+    </div>
+    <!-- End cursor -->
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/grid.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/dictionary.js"></script>
+    <script src="assets/js/jquery.translate.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
+<!-- http://theme.dsngrid.com/droow -->
